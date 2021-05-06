@@ -1,0 +1,134 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-color: #212121;
+  --secondary-color: #757575;
+}
+* {
+  margin: 0px;
+}
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* Убрал точки перед списками */
+ul {
+  list-style: none;
+}
+/* Убрал линию под ссылками */
+a {
+  text-decoration: none;
+}
+/* header */
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-link,
+.contacts-link {
+  color: var(--primary-color);
+}
+.logo {
+  color: var(--primary-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.nav,
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+.contacts-link {
+  color: var(--secondary-color);
+}
+
+/* main-content */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #fff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:active {
+  background-color: #188ce8;
+}
+
+/* values */
+.values-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+.values-text {
+  color: var(--secondary-color);
+  line-height: 1.7;
+}
+/* our-team */
+.our-team-section {
+  background-color: #f5f4fa;
+}
+
+.profession,
+.name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.name {
+  font-weight: 500;
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #fff;
+}
+
+.footer-address p {
+  color: #fff;
+}
+
+.footer-address a {
+  color: rgba(255, 255, 255, 0.6);
+}
