@@ -132,3 +132,28 @@ a {
 .footer-address a {
   color: rgba(255, 255, 255, 0.6);
 }
+/* portfolio-page */
+
+.filter-button {
+  background-color: #f5f4fa;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.filter-button:hover,
+.filter-button:active {
+  background-color: #2196f3;
+  color: #fff;
+}
+.gallery-title {
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-text {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
